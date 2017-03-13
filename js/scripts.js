@@ -284,7 +284,7 @@ $(document).ready(function() {
     
     if($('.instafeed').length){
     	jQuery.fn.spectragram.accessData = {
-			accessToken: '3713740cb82b4950ab6c6929f79493a3',
+			accessToken: '42109ed0ad41444d90fdd309bb2487d5',
 			clientID: '7cde06c185c5440fb3e58c3e0e898b0c'
 		};	
 
@@ -292,7 +292,7 @@ $(document).ready(function() {
             var feedID = $(this).attr('data-user-name');
             $(this).children('ul').spectragram('getUserFeed', {
                 query: feedID,
-                max: 12
+                max: 5
             });
         });
     }   
